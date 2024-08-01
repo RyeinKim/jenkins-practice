@@ -6,3 +6,4 @@ nvm use 20
 
 pm2 stop all
 pm2 start app.js
+pm2 logs

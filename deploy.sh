@@ -5,4 +5,5 @@ export NVM_DIR="/var/lib/jenkins/.nvm"
 nvm use 20
 
 pm2 stop all
-pm2 start app.js
+
+pm2 start app.js --name "jenkins-app"
